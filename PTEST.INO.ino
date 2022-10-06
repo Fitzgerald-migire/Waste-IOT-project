@@ -34,7 +34,7 @@ void loop()
   //network check and test
   
   //check bin levels and sending bin data
-  if(distance<=7)
+  if(distance<=3)
   {
     digitalWrite(LedPin,HIGH);
     delay(10);

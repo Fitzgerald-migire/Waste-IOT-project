@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/nicepage.css" media="screen">
+    <link rel="stylesheet" href="css/main.css" media="screen">
+    <script class="u-script" type="text/javascript" src="configs/jquery.js" defer="">
+
+    </script>
+    <script class="u-script" type="text/javascript" src="configs/nicepage.js" defer="">
+
+    </script>
+    <meta name="generator" content="Nicepage 5.1.5, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+        
+    <script type="application/ld+json">
+      {
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "",
+		"logo": "images/gcb7821c7fd59406dd9920e389da5a3a0b5f532d5e22ef81151cfc2fd9676be3cd24dad06fde4968efbe347c7824350d0_1280.png"
+      }
+      
+    </script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="main">
+    <meta property="og:type" content="website">
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <script>
+      var firebaseConfig = 
+      {
+        apiKey: "AIzaSyDzQ1BwmEJ5ipFihywtixHUQG4dHVeNzIg",
+        authDomain: "trash-talk-2d99a.firebaseapp.com",
+        databaseURL: "https://trash-talk-2d99a-default-rtdb.europe-west1.firebasedatabase.app",
+        projectId: "trash-talk-2d99a",
+        storageBucket: "trash-talk-2d99a.appspot.com",
+        messagingSenderId: "165273882777",
+        appId: "1:165273882777:web:7ce86e87f125b35ca8a808",
+        measurementId: "G-VE0W43GJQX"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      var database = firebase.database();
+     
+    
+    </script>
+    <script src="configs/configs.js" defer>
+
+    </script>
+  </head>
+  <body class="u-body u-xl-mode" data-lang="en"><header class="u-black u-clearfix u-header u-header" id="sec-7df6"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="779" data-image-height="1280">
+          <img src="images/gcb7821c7fd59406dd9920e389da5a3a0b5f532d5e22ef81151cfc2fd9676be3cd24dad06fde4968efbe347c7824350d0_1280.png" class="u-logo-image u-logo-image-1">
+        </a>
+        <p class="u-text u-text-1">Waste Site</p>
+      </div></header>
+    <section class="u-align-center u-clearfix u-section-1" id="sec-713f">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="25%">
+              <col width="12.7%">
+              <col width="37.2%">
+              <col width="25.000000000000007%">
+            </colgroup>
+            <thead class="u-black u-table-header u-table-header-1">
+              <tr style="height: 46px;">
+                <th class="u-border-1 u-border-black u-table-cell">BIN ID</th>
+                <th class="u-border-1 u-border-black u-table-cell">WASTE LEVEL</th>
+                <th class="u-border-1 u-border-black u-table-cell">LOCATION&nbsp;</th>
+                <th class="u-border-1 u-border-black u-table-cell">ACTION</th>
+              </tr>
+            </thead>            
+            <tbody class="u-table-body">
+              <tr style="height: 66px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell" id="BinID">
+                  
+                </td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell" id="wastelevel">
+
+                </td>
+                
+                <td class="u-border-1 u-border-grey-30 u-table-cell" id="Location">
+                  
+                </td>
+                <td class="u-border-1 u-border-grey-30 u-table-cell">
+                  <script>
+                    function CollectButton()
+                      {
+                          window.open('./Map-page.html');
+                      }
+                  </script>
+            
+                    <button onclick="CollectButton()">
+                      collect
+                    </button>
+                </td>
+              </tr>
+            
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="BinID">
+
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-4bbe"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+    
+    
+</body>
+</html>
